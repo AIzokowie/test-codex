@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Logowanie</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</head>
+<body onload="logout()">
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/register.html">Rejestracja</a>
+  </nav>
+</header>
+<div class="container">
+  <h1>Logowanie</h1>
+  <form onsubmit="login(event)">
+    <input id="username" placeholder="Login" />
+    <input id="password" type="password" placeholder="Hasło" />
+    <button>Zaloguj</button>
+  </form>
+</div>
+</body>
+</html>

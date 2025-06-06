@@ -1,0 +1,16 @@
+{
+  "name": "test-codex",
+  "version": "1.0.0",
+  "description": "It's a Fake social platform to verify fake news",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

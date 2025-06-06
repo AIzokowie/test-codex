@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>It's a Fake</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/feed.html">Lista zgłoszeń</a>
+    <a href="/profile.html">Profil</a>
+    <a href="/login.html">Logowanie</a>
+    <a href="/register.html">Rejestracja</a>
+  </nav>
+</header>
+<div class="container">
+  <h1>Sprawdź wiadomość</h1>
+  <form onsubmit="checkFake(event)">
+    <textarea id="text" placeholder="Wklej tekst"></textarea>
+    <input id="link" placeholder="lub link" />
+    <button>Sprawdź</button>
+  </form>
+  <div id="result"></div>
+</div>
+</body>
+</html>
