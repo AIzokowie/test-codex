@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Profil</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</head>
+<body onload="loadProfile()">
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/feed.html">Lista zgłoszeń</a>
+    <a href="/login.html">Wyloguj</a>
+  </nav>
+</header>
+<div class="container">
+  <h1>Profil: <span id="user"></span></h1>
+  <ul id="history"></ul>
+  <button onclick="deleteAccount()">Usuń konto</button>
+</div>
+</body>
+</html>
